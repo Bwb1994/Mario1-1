@@ -1,25 +1,12 @@
 
-printPyramid(10);
-
-
-/*
- * printPyramid
- *
- * Prints to the console a pyramid of '#' characters of the specified height
- * For example, if height is 5, the console will look like this:
- *          ##
- *         ###
- *        ####
- *       #####
- *      ######
- */
+printPyramid(5);
 function printPyramid(height) 
 {
   let emptyString = " ";
   let x = 0;
   let y = 0;
-  let z = 0;
   let output = "#"
+
   while (y <= height)
   {
     emptyString += " ";
